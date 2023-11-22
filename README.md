@@ -7,11 +7,12 @@
 
 ### requirements
 
-- use Pipenv
-- use python 3.11
+- use Pipenv (python 3.11) or Python with cvat-cli installed.
 - use cvat account
 
 ### run application
+
+#### setup
 
 ```
 # clone this repository
@@ -26,12 +27,22 @@ USER_NAME = "your cvat user name"
 PASSWORD = "your cvat password"
 TASK_IDS = "target task id"
 EOF
+```
 
+#### use Pipenv
+
+```
 # setup application
 pipenv install
 
 # download cvat dataset
 pipenv run python3 app/main.py
+```
+
+#### Python with cvat-cli installed
+
+```
+python3 app/main.py
 ```
 
 #### options parametor
