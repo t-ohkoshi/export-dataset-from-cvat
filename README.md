@@ -54,7 +54,3 @@ python3 app/main.py
 - [cvat-cli support format](https://github.com/opencv/cvat/tree/bb579e83cae6fac36cd4b65e29bade93b21be412/cvat/apps/dataset_manager/formats)
 - [cvat-cli dump cmd](https://github.com/opencv/cvat/blob/bb579e83cae6fac36cd4b65e29bade93b21be412/site/content/en/docs/api_sdk/cli/_index.md?plain=1#L195)
 
-
-
-```
-
