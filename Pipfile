@@ -4,6 +4,8 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+cvat-cli = "*"
+python-dotenv = "*"
 
 [dev-packages]
 
