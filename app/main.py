@@ -41,7 +41,7 @@ def main():
             file_path = task_id + "-dataset-yolo.zip"
             output_file = os.path.join(dl_path, file_path)
             #  get dataset
-            dump_dataset(cvat_cli_path, server_url, USER_NAME, PASSWORD, task_id, True, format_name, output_file)
+            dump_dataset(cvat_cli_path, server_url, USER_NAME, PASSWORD, task_id, False, format_name, output_file)
         except subprocess.CalledProcessError as e:
             print(f"RunTime Error: {e}", file=sys.stderr)
 
