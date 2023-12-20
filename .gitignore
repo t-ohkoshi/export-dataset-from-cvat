@@ -162,4 +162,5 @@ cython_debug/
 download/*
 .env*
 .DS_Store
+tmp/
 
